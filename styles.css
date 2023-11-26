@@ -1,0 +1,46 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #aaa;
+  max-width: 80%;
+  margin: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+
+#img-div {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+#img-caption {
+  padding: 10px 10px 5px 10px;
+}
+
+#tribute-info {
+  text-align: center;
+}
+
+li {
+  padding: 5px 0;
+}
+
+img {
+  display: block;
+}
+
+span {
+  text-decoration: underline;
+  font-size: large;
+  font-weight: bold;
+  padding: 0;
+}
