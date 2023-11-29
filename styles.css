@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #aaa;
+  background-color: #ddd;
   max-width: 80%;
   margin: auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -29,9 +29,18 @@
 #tribute-info {
   text-align: center;
 }
-
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 li {
-  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  padding: 5px 0px;
+  margin-left: 0;
 }
 
 img {
@@ -43,4 +52,10 @@ span {
   font-size: large;
   font-weight: bold;
   padding: 0;
+}
+
+#quote {
+  width: 80%;
+  text-align: center;
+  background-color: #fff;
 }
